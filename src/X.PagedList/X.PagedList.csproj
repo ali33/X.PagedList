@@ -24,15 +24,15 @@
         <Description>Library for easily paging through any IEnumerable/IQueryable in .NET and .NET Core</Description>
         <LangVersion>default</LangVersion>
         <PackageVersion>9.1.2</PackageVersion>
-        <TargetFrameworks>net6.0;net8.0;netstandard2.0;netstandard2.1</TargetFrameworks>
+		<TargetFramework>net7.0</TargetFramework> 
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="icon.png" Pack="True" PackagePath=""/>
+        <None Include="icon.png" Pack="True" PackagePath="" />
     </ItemGroup>
 
     <ItemGroup>
-        <None Include="../../README.md" Pack="true" PackagePath="\"/>
+        <None Include="../../README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 
     <ItemGroup>
